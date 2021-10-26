@@ -29,7 +29,7 @@ const ItemComponent = ({ task, onToggle, onDelete, onEdit }) => {
                             onChange={e => setNewName(e.target.value)}
                         />
                         <div className='side'>
-                            <ButtonCustom isBlue className='margin' onClick={onSave}>Save</ButtonCustom>
+                            <ButtonCustom isBlue className='margin' onClick={onSave} disabled={!newName}>Save</ButtonCustom>
                             <ButtonCustom onClick={onCancel}>Cancel</ButtonCustom>
                         </div>
                     </>
