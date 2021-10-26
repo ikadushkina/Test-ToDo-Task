@@ -1,0 +1,44 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+}
+
+.side:first-child {
+    width: calc(100% - 110px);
+}
+
+.margin {
+    margin-right: 5px;
+}
+
+.editInput {
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #c4c4c4;
+    padding: 5px;
+    margin-right: 10px;
+    width: 170px;
+}
+
+input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+}
+
+.name {
+    max-width: calc(100% - 20px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

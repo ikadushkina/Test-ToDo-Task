@@ -1,0 +1,30 @@
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    outline: none;
+    transition: 0.25s;
+}
+
+.button:hover {
+    background: #cecece;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    background: #a3a3a3;
+    color: #ffffff;
+}
+
+.button:disabled:hover {
+    background: #a3a3a3;
+    color: #ffffff;
+}
+
+.bgBlue {
+    background: #829afc;
+}
+
+.bgBlue:hover {
+    background: #a3b3f6;
+}
